@@ -6,6 +6,7 @@ html {
     --red: #f00;
     --max-width: 840px;
     --breakpoint: 640px;
+    --radius: 4px;
   }
   
   * {
@@ -43,11 +44,16 @@ html {
   a {
     color: var(--orange);
     text-decoration: none;
-    transition: color 0.5s linear;
+    transition: color 0.25s linear;
   }
   
   a:hover {
     color: var(--red);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
   
   li > h4 {
